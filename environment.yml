@@ -1,0 +1,22 @@
+name: heartbeat-soundproc
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scipy
+  - librosa
+  - scikit-learn
+  - tensorflow
+  - tqdm
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - python_speech_features
+      # only if you really need it outside Colab:
+      # - google-colab
